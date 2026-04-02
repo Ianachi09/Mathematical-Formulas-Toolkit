@@ -1,0 +1,12 @@
+Pythagorean Theorem|a ^ 2 + b ^ 2|Calculates the hypotenuse c. Note: The program will automatically square root the result for you!
+Area of Rectangle|l * w|Calculates the area given length (l) and width (w).
+Perimeter of Rectangle|2 * (l + w)|Calculates the total perimeter using length (l) and width (w).
+Area of Triangle|b * h / 2|Calculates the area given base (b) and height (h).
+Area of Circle|3.14159 * r ^ 2|Calculates the area using the radius (r).
+Volume of Cylinder|3.14159 * r ^ 2 * h|Calculates volume using radius (r) and height (h).
+Fahrenheit to Celsius|(f - 32) * 5 / 9|Converts a Fahrenheit (f) temperature to Celsius.
+Celsius to Fahrenheit|(c * 9 / 5) + 32|Converts a Celsius (c) temperature to Fahrenheit.
+Final Velocity|v + a * t|Physics: Calculates final speed given initial velocity (v), acceleration (a), and time (t).
+Distance Traveled|v * t + 0.5 * a * t ^ 2|Physics: Calculates distance given initial velocity (v), time (t), and acceleration (a).
+Slope of a Line|(y - j) / (x - i)|Algebra: Calculates slope (m). Use (x,y) for point 2, and (i,j) for point 1.
+Density|m / v|Calculates the density by mass (m) and volume (v).
