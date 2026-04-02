@@ -7,7 +7,7 @@ A Program that lists you formulas which allows you to see the formula with a few
 
 **Warning : For the formula to work, don't use special functions (square roots, trigonomeries, differentials, etc.) as it is not supported just yet.**
 
-## List of current formulas;
+## List of current formulas
 
 |   -   |   -   |
 | :---: | :---: |
