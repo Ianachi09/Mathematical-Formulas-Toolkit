@@ -1,4 +1,4 @@
 Mathematical Formula Toolkit
 personal
 preview.png
-This is the description of the project. It can be as long as you want, but it should start on the fourth line.
+A Program that lists you formulas which allows you to see the formula with a few clicks and use them. Currently there is only 10 formula to use but the program is dynamic and you can add new one within the program
