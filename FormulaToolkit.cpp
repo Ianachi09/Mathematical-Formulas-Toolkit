@@ -56,7 +56,7 @@ int main() {
             std::cout << "\nExiting Program. . .";
             isRunning = false;
         } else if (choice == mathList.size() + 1) { // Function to write new formulas if prompted second last index
-            system("cls");
+            system("clear");
             std::cout << "=====================================================\n";
             std::cout << "Adding New Formula";
             std::cout << "Remember: Use lowercase variables and explicit math (e.g., a * b).\n\n";
@@ -92,10 +92,10 @@ int main() {
 
             std::cout << "\nPress Enter to return to main menu...";
             std::cin.get(); // Waits for the user to press Enter
-            system("cls");
+            system("clear");
         } else if (choice > 0 && choice <= mathList.size()) { //Gets the index if other than that
             int index = choice - 1; // -1 because array starts with 0
-            system("cls");
+            system("clear");
             
             bool inSubMenu = true;
 
@@ -123,14 +123,14 @@ int main() {
 
                 switch (subChoice) {
                     case 1:
-                    system("cls");
+                    system("clear");
                     std::cout << "Equation : " << mathList[index].equation << std::endl;
                     std::cout << "Explanation : " << mathList[index].explaination << std::endl;
                     std::cout << std::endl;
                     break;
 
                     case 2: {
-                    system("cls");
+                    system("clear");
                     std::string formulaText = mathList[index].equation;
                     std::cout << "\n--- Processing: " << mathList[index].name << " ---\n";
                     std::cout << "Formula: " << formulaText << "\n\n";
@@ -173,7 +173,7 @@ int main() {
 
                     case 3:
                         inSubMenu = false;
-                        system("cls");
+                        system("clear");
                         break;
                     
                 default:
